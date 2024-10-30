@@ -1,0 +1,13 @@
+[tool.poetry]
+name = "tictactoe_ts3436"  # Corrected package name
+version = "0.1.0"  # Corrected version
+description = "A simple implementation of the Tic-Tac-Toe game"
+authors = ["tshama4141 <ts3436@columbia.edu>"]
+license = "MIT"
+readme = "README.md"
+[tool.poetry.dependencies]
+python = ">=3.10,<4.0"
+numpy = "^2.1.2"
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
